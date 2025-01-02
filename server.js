@@ -1,6 +1,7 @@
-import express from 'express';
-import userModule from './userSchema.mjs';
-import connectDB from './db.mjs';
+const express= require('express');
+const app=express();
+const userModule = require('./userSchema.js');
+import connectDB from './db.js';
 
 connectDB();
 
